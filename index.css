@@ -1,0 +1,22 @@
+/* 
+- Inom den här examinationen får alla CSS selektorer användas, men dessa måste finnas med:
+ID-selektor
+Klass-selektor
+Descendant selektor (kallas ibland för kontextuell selektor) 
+
+- Minst en av dina sidor ska innehålla en lista (ul eller ol) som presenteras horisontellt (men under inflytande utav en media query så ändras det till vertikalt, se kommande punkt)
+
+- All text på sidorna ska han en angiven textstorlek i ditt CSS. Alla textstorlekar ska anges med relativa värden i enheten em.
+
+- Använd dig utav följande tekniker i CSS någonstans på din webbplats
+CSS Transitions
+CSS Rounded Corners
+CSS Animations
+CSS Shadow Effects
+CSS Opacity / Transparency
+
+- Utöver ovanstående specifikation så ska din CSS-fil innehålla en ”media query” för anpassning till mindre skärmar som genomför följande ändringar när webbläsarens bredd understiger 650 pixlar (du får ändra detta värde godtyckligt utifrån din layout):
+* Sidorna ska vara utformade så att layoutens totala bredd fyller webbläsarfönstrets bredd
+* Din horisontella lista ska återgå till att presenteras vertikalt istället för horisontellt
+* Dina kolumner ska inte längre ligga bredvid varandra utom presenteras löpande efter varandra.
+*/
