@@ -20,3 +20,64 @@ CSS Opacity / Transparency
 * Din horisontella lista ska återgå till att presenteras vertikalt istället för horisontellt
 * Dina kolumner ska inte längre ligga bredvid varandra utom presenteras löpande efter varandra.
 */
+
+body {
+    /* width: 1440px;
+    max-width: auto;
+    height: 100vh; */
+    margin: 0;
+    background-color: #f2f1ec;
+    background-image: url("media/background_contact.png");
+    background-size: cover;
+
+}
+
+/* header + footer styling */
+
+ul {
+    display: flex; /*Gör om block-level till inline, vilket gör listan horistontell */
+    justify-content: center;
+
+}
+
+li {
+    padding: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    list-style: none;
+     
+}
+
+
+main {
+    width: 1000px;
+    margin: 20px auto; 
+    text-align: center;
+}
+
+
+.h1_contact {
+    font-family: "Noto Serif KR", serif;
+    font-weight: 300;
+    font-style: normal;  
+    font-size: 3em;
+}
+
+.h2_contact {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+}
+
+form {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
