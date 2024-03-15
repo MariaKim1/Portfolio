@@ -33,7 +33,7 @@ body {
 
 }
 
-/* header + footer styling */
+/* header + footer styling - start */
 
 header,
 footer {
@@ -58,11 +58,18 @@ li {
 a {
     color: #000000; /*Textfärg*/
     text-decoration: none;
+    transition-duration: 0.8s;
+}
+
+a:hover {
+    color: #C41D1D;
 }
 
 i {
     padding: 10px;
 }
+
+/* header + footer styling - end */
 
 hr {
     width: 50%;
@@ -81,12 +88,13 @@ main {
 }
 
 .img_me {
-    width: 150px; /*Bredd*/
+    width: 250px; /*Bredd*/
     margin: 0 auto 20px auto; /*auto = autojusterande marginaler, alltså att marginalerna till höger och vänster fördelas lika, vilket gör att innehållet blir centrerat.*/
     display: block; /*Gör om inline till block-level, vilket gör att bilden hamnar på en egen rad samt går att centrera med hjälp av margin:auto */
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
+/* text styling - start */
 
 h1 {
     font-family: "Sacramento", cursive;
@@ -116,12 +124,18 @@ p {
     font-style: normal;
 }
 
+/* text styling - end */
+
+/* form styling - start */
 form {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* form styling - end */
