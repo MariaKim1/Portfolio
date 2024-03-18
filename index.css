@@ -87,6 +87,10 @@ main {
     text-align: center;
 }
 
+.testimonials_main {
+    background-color: bisque;
+}
+
 .img_me {
     width: 250px; /*Bredd*/
     margin: 0 auto 20px auto; /*auto = autojusterande marginaler, alltså att marginalerna till höger och vänster fördelas lika, vilket gör att innehållet blir centrerat.*/
@@ -126,6 +130,15 @@ p {
 
 /* text styling - end */
 
+
+/* section_my work - start */
+
+
+.img_imaginarium {
+    width: 250px; /*Bredd*/
+    margin: 0 auto 20px auto;
+}
+
 /* form styling - start */
 form {
     font-family: "Quicksand", sans-serif;
@@ -139,3 +152,4 @@ form {
 }
 
 /* form styling - end */
+
