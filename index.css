@@ -82,9 +82,9 @@ hr:last-child{
 }
 
 main {
-    width: 680px;
+    width: 800px;
     margin: 20px auto; 
-    text-align: center;
+   
 }
 
 .testimonials_main {
@@ -105,6 +105,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 4.5em;
+    text-align: center;
 }
 
 h2 {
@@ -112,6 +113,7 @@ h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 3em;
+    text-align: center;
 }
 
 h3 {
@@ -119,6 +121,14 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+h4 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bold;
 }
 
 p {
@@ -130,13 +140,33 @@ p {
 
 /* text styling - end */
 
+/* section_experiences - start */
+
+.experiences_flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* section_experiences - end */
 
 /* section_my work - start */
 
 
-.img_imaginarium {
-    width: 250px; /*Bredd*/
+.img_project {
+    width: 120px; /*Bredd*/
     margin: 0 auto 20px auto;
+    border: solid 1px black;
+    border-radius: 10%;
+}
+
+.card-container {
+    display: flex;
+}
+
+strong {
+    font-weight: bold;
 }
 
 /* form styling - start */
