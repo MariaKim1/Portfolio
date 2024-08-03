@@ -8,13 +8,6 @@ Descendant selektor (kallas ibland för kontextuell selektor)
 
 - All text på sidorna ska han en angiven textstorlek i ditt CSS. Alla textstorlekar ska anges med relativa värden i enheten em.
 
-- Använd dig utav följande tekniker i CSS någonstans på din webbplats
-CSS Transitions
-CSS Rounded Corners
-CSS Animations
-CSS Shadow Effects
-CSS Opacity / Transparency
-
 - Utöver ovanstående specifikation så ska din CSS-fil innehålla en ”media query” för anpassning till mindre skärmar som genomför följande ändringar när webbläsarens bredd understiger 650 pixlar (du får ändra detta värde godtyckligt utifrån din layout):
 * Sidorna ska vara utformade så att layoutens totala bredd fyller webbläsarfönstrets bredd
 * Din horisontella lista ska återgå till att presenteras vertikalt istället för horisontellt
@@ -28,8 +21,8 @@ body {
     margin: 0;
     background-color: #f2f1ec;
     background-image: url("media/background_pink_transparent-red.png");
-    background-size: cover;
-    background-repeat: repeat-y;
+    background-size: 100%;
+    /* background-repeat: repeat-y; */
 }
 
 /* header + footer styling - start */
@@ -48,10 +41,10 @@ ul {
 li {
     padding: 10px;
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     list-style: none;   
+    font-size: 1em;
 }
 
 a {
@@ -83,11 +76,6 @@ hr:last-child {
 main {
     width: 800px;
     margin: 20px auto; 
-   
-}
-
-.testimonials_main {
-    background-color: bisque;
 }
 
 .img_me {
@@ -95,6 +83,7 @@ main {
     margin: 0 auto 20px auto; /*auto = autojusterande marginaler, alltså att marginalerna till höger och vänster fördelas lika, vilket gör att innehållet blir centrerat.*/
     display: block; /*Gör om inline till block-level, vilket gör att bilden hamnar på en egen rad samt går att centrera med hjälp av margin:auto */
     border-radius: 50%;
+    box-shadow: 0 0 20px rgb(172, 69, 69); /* Röd skugga runt profilbild */
 }
 
 /* text styling - start */
@@ -103,7 +92,7 @@ h1 {
     font-family: "Sacramento", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 4.5em;
+    font-size: 4em;
     text-align: center;
 }
 
@@ -111,13 +100,12 @@ h2 {
     font-family: "Sacramento", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
+    font-size: 2.8em;
     text-align: center;
 }
 
 h3 {
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -125,7 +113,6 @@ h3 {
 
 h4 {
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     font-size: 1em;
@@ -134,7 +121,6 @@ h4 {
 
 p {
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     font-size: 1em;
@@ -173,7 +159,6 @@ form {
     flex-direction: column;
     align-items: center;
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     font-size: 20px;

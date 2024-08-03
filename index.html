@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://unpkg.com/normalize.css">
-        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="index.css">
         <script src="https://kit.fontawesome.com/19b5078a53.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Noto+Serif+KR:wght@300;400&family=Quicksand:wght@300&family=Sacramento&display=swap" rel="stylesheet">
         <title>Portfolio</title>
@@ -26,16 +26,17 @@
 
         <main>
             <h1>Welcome to my portfolio!</h1>
-            <section id="section__aboutme" class="section__class" > <!-- Add picture of me directly in HTML code, in about section -->
+            <section id="section__aboutme" class="section__class"> <!-- Add picture of me directly in HTML code, in about section -->
+                <img class="img_me" src="media/profile_img_blue.png" alt="profilbild på mig">
                 <div>
-                    <img class="img_me" src="media/profile_img_blue.png">
-                    <p class="about-p">
+                    <h2>About me</h2>
+                </div>
+                <p class="about-p">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore cum exercitationem, 
                         sequi aliquid vero officia! Rerum et distinctio reprehenderit repellat, 
                         assumenda suscipit veniam voluptate magni, corrupti dignissimos architecto eum inventore iusto,
                         exercitationem libero dolorem! Dolor praesentium ratione perspiciatis iure quaerat.
-                    </p>
-                </div>
+                </p>
             </section>
             
             <hr>
@@ -45,21 +46,19 @@
                 <div>
                     <h2>Example of my work/projects</h2>
                 </div>
-                <div>
-                    <card class="card-container">
-                        <img class="img_project" src="media/imaginarium_thumbnail.png"> <!-- Clickable thumbnail -->
-                        <h4>Imaginarium - January 2024</h4>
-                        <p class="projects-p">
-                            Drag and drop game. Final project at Sundsgårdens folkhögskola, IT - Tech for women 2023/2024.
-                        </p>
-                    </card>
-                    <card class="card-container">
-                        <img class="img_project" src="media/add_project_thumbnail.png"> <!-- Clickable thumbnail -->
-                        <h4>New project comming</h4>
-                        <p class="projects-p">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, distinctio.
-                        </p>
-                    </card>
+                <div class="card-container">
+                    <img class="img_project" src="media/imaginarium_thumbnail.png" alt="Bild på ett av mina projekt - Imaginarium"> <!-- Clickable thumbnail -->
+                    <h4>Imaginarium - January 2024</h4>
+                    <p class="projects-p">
+                        Drag and drop game. Final project at Sundsgårdens folkhögskola, IT - Tech for women 2023/2024.
+                    </p>
+                </div>
+                <div class="card-container">
+                    <img class="img_project" src="media/add_project_thumbnail.png" alt="Bild på ett av mina projekt - Kommer snart"> <!-- Clickable thumbnail -->
+                    <h4>New project comming</h4>
+                    <p class="projects-p">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, distinctio.
+                    </p>
                 </div>
             </section>
 
