@@ -1,6 +1,5 @@
 body {
     width: 100%;
-    max-width: auto;
     height: 100vh;
     margin: 0;
     background-color: #f2f1ec;
@@ -54,7 +53,7 @@ hr {
 }
 
 hr:last-child {
-    margin-top: none;
+    margin-top: 0;
 }
 
 main {
@@ -157,7 +156,6 @@ input, textarea {
 
 button {
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     font-size: 1em;
@@ -253,4 +251,3 @@ button:hover {
         margin: 20px;
     }
 }
-    /* Andra anpassningar för mindre skärmar */
