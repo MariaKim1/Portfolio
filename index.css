@@ -189,10 +189,17 @@ button:hover {
     }
 }    
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     body {
         width: 100%;
         margin: auto;
+    }
+    
+    main {
+        width: 350px; /* Anpassa bredden på huvudsektionen */
+        /* width: 600px; */
+        margin: auto;
+        padding: 25px;
     }
 
     .navlinks {
@@ -207,6 +214,14 @@ button:hover {
     .img_me {
         width: 150px; /* Minska bildstorleken för mindre skärmar */
         margin: auto;
+    }
+    
+    .experiences_flexbox {
+        flex-direction: column;
+    }
+
+    .experiences_container h3 {
+        text-align: center;
     }
 
     h2 {
@@ -224,12 +239,5 @@ button:hover {
         width: 60%;
         margin: auto;
     }   
-
-    main {
-        width: 350px; /* Anpassa bredden på huvudsektionen */
-        /* width: 600px; */
-        margin: auto;
-        padding: 25px;
-    }
 }
     /* Andra anpassningar för mindre skärmar */
