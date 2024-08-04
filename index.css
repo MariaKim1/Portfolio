@@ -215,14 +215,6 @@ button:hover {
         width: 150px; /* Minska bildstorleken för mindre skärmar */
         margin: auto;
     }
-    
-    .experiences_flexbox {
-        flex-direction: column;
-    }
-
-    .experiences_container h3 {
-        text-align: center;
-    }
 
     h2 {
         width: 90%;
@@ -239,5 +231,26 @@ button:hover {
         width: 60%;
         margin: auto;
     }   
+
+    /* experience page */
+    .experiences_flexbox {
+        flex-direction: column;
+    }
+
+    .experiences_container h3 {
+        text-align: center;
+    }
+    
+    /* contact page */
+
+    #section__contact {
+        padding: 25px;
+        margin: auto;
+    }
+
+    .h2_contact {
+        padding: 20px;
+        margin: 20px;
+    }
 }
     /* Andra anpassningar för mindre skärmar */
